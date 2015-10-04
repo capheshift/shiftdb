@@ -1,0 +1,41 @@
+{
+  "name": "shiftdb",
+  "version": "0.0.0",
+  "description": "The client database management based on localStorage, that helps you control small amount of data at browser.",
+  "homepage": "https://github.com/capheshift/shiftdb",
+  "repository": "capheshift/shiftdb",
+  "author": {
+    "name": "tampham47",
+    "email": "tampham47@live.com",
+    "url": "http://tampham47.tumblr.com/"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "data",
+    "database",
+    "localstorage",
+    "capheshift",
+    "browser"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
